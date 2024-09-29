@@ -1,6 +1,7 @@
 from transformers import AutoModel, AutoTokenizer
 import numpy as np
 from PIL import Image
+import torch
 
 
 
@@ -15,9 +16,9 @@ def load_got_model():
     model = AutoModel.from_pretrained('ucaslcl/GOT-OCR2_0', 
                                       trust_remote_code=True, 
                                       low_cpu_mem_usage=True, 
-                                      device_map='cuda', 
+                                      device_map='cpu', 
                                       use_safetensors=True, 
-                                      pad_token_id=tokenizer.eos_token_id).eval().cuda()
+                                      pad_token_id=tokenizer.eos_token_id).eval()
     return tokenizer, model
 
 
