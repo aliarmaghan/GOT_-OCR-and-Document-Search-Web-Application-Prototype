@@ -58,8 +58,8 @@ import os
 # Import the GOT OCR model extraction function
 from ocr_model import extract_text_with_got
 
-# Specify the path to tesseract.exe
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# # Specify the path to tesseract.exe
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Function to extract text using GOT (from ocr_model.py)
 def extract_text_got(temp_file_path):
