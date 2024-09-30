@@ -6,3 +6,6 @@ verovio==4.3.1
 accelerate==0.28.0
 streamlit==1.38.0
 pip==24.2
+pytesseract==0.3.13 
+langdetect==1.0.9
+tesseract-ocr
