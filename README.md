@@ -36,7 +36,7 @@ Follow these steps to set up the project on your local machine:
 First, clone the GitHub repository to your local system:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone (https://github.com/aliarmaghan/GOT_-OCR-and-Document-Search-Web-Application-Prototype.git)
 cd your-repo-name
 ```
 ### 2.Install Tesseract-OCR
