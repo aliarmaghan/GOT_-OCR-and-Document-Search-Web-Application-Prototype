@@ -15,6 +15,9 @@ This repository contains a web-based Optical Character Recognition (OCR) and doc
 
 You can check out the live demo of the application here: [Live Demo](https://gotocr.streamlit.app/)
 
+[![Watch the video](https://drive.google.com/file/d/1A2TpeQclAWo0ENlralYJ4lRp897pZT7l/view?usp=sharing)](https://drive.google.com/file/d/1aLPHcD5_vLVYMEGWRdFeqUwFtY25Z8Pj/view?usp=drive_link)
+
+
 ---
 
 ## Prerequisites
@@ -65,6 +68,8 @@ These packages include:
 - PyTorch and Transformers for model processing.
 - Streamlit for the web app interface.
 - Pytesseract for Tesseract OCR integration.
+
+---
 
 ### Running the Web Application Locally
 Once the environment is set up, follow these steps to run the web application:
